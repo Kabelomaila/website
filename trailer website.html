@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Makhetha Trailer Works</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        h1, h2 {
+            color: #007BFF;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        section {
+            padding: 40px 0;
+        }
+        .trailer-types img {
+            width: 100%;
+            height: auto;
+        }
+        .trailer-types {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact-form input, .contact-form textarea {
+            margin: 10px 0;
+            padding: 10px;
+            font-size: 16px;
+        }
+        .contact-form button {
+            padding: 10px;
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Makhetha Trailer Works</h1>
+        <nav>
+            <a href="#about">About Us</a>
+            <a href="#trailers">Our Trailers</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="container">
+        <h2>About Us</h2>
+        <p>Welcome to Makhetha Trailer Works! We specialize in building high-quality trailers for various needs. Whether you're looking for a double axle, single axle, flatbed, camper, or transport trailer, we've got you covered.</p>
+    </section>
+
+    <!-- Trailer Types Section -->
+    <section id="trailers" class="container">
+        <h2>Our Trailers</h2>
+        <div class="trailer-types">
+            <div>
+                <h3>Double Axle Trailer</h3>
+                <img src="double-axle.jpg" alt="Double Axle Trailer">
+                <p>Heavy-duty trailers ideal for large loads and tough terrain.</p>
+            </div>
+            <div>
+                <h3>Single Axle Trailer</h3>
+                <img src="single-axle.jpg" alt="Single Axle Trailer">
+                <p>Perfect for smaller loads and easy towing.</p>
+            </div>
+            <div>
+                <h3>Flatbed Trailer</h3>
+                <img src="flatbed.jpg" alt="Flatbed Trailer">
+                <p>Versatile flatbed trailers for easy loading and unloading.</p>
+            </div>
+            <div>
+                <h3>Camper Trailer</h3>
+                <img src="camper.jpg" alt="Camper Trailer">
+                <p>Customized camper trailers for outdoor adventures.</p>
+            </div>
+            <div>
+                <h3>Transport Trailer</h3>
+                <img src="transport.jpg" alt="Transport Trailer">
+                <p>Efficient transport trailers for moving vehicles and equipment.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or would like to request a quote, please contact us below.</p>
+        <div class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Makhetha Trailer Works. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
